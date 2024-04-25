@@ -34,8 +34,7 @@ $T(n) = 13^iT(n/13^i) + 5i$\
 for i = logn\
 $nT(1) + 5logn \in \Theta(n)$\
 
-3.
-$$ T(n) =
+3. $T(n) =$\
     \begin{cases}
         1 & n \leq 1\\
         13 T\left(\frac{n}{13}\right) + 2n & n > 1
@@ -53,5 +52,4 @@ $$ T(n) =
     $T(n) = 13^iT(n/13^i) + (2n)i$\
     for i = log n\
     $T(n) = nT(1) + 2n(logn) \in \Theta(nlogn)$\
-$$
 
