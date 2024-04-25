@@ -34,12 +34,14 @@ $T(n) = 13^iT(n/13^i) + 5i$\
 for i = logn\
 $nT(1) + 5logn \in \Theta(n)$\
 
-3. $T(n) =$\
-    $\begin{cases}
+3.
+$$ T(n) =
+    \begin{cases}
         1 & n \leq 1\\
         13 T\left(\frac{n}{13}\right) + 2n & n > 1
-    \end{cases}$
-  
+    \end{cases}
+$$
+
 $T(n) = 13T(n/13) + 2n$\
 $T(n/13) = 13T(n/169) + 2(n/13)$\
 $T(n) = 13(13T(n/169) + 2(n/13)) + 2n$\
